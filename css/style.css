@@ -8,13 +8,23 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background-color: #19172a;
+    background-color: green;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     gap: 100px;
 }
 
+.container>h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+.control {
+    display: flex;
+    gap: 20px;
+}
 .box {
     width: 400px;
     height: 300px;
